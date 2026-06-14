@@ -10,7 +10,6 @@ venv/
 ENV/
 env/
 config/__pycache__/*
-
 # --- Dash / Plotly Specific ---
 # Assets that might be dynamically generated but shouldn't be tracked
 .assets-cache/

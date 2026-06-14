@@ -3,3 +3,4 @@ dash-ag-grid
 pandas
 databricks-sdk
 gunicorn
+nbformat
