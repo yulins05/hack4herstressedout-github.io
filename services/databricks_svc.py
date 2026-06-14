@@ -14,6 +14,8 @@ class DatabricksService:
         """Executes optimized statement queries against Unity Catalog via SQL Warehouse."""
         query = f"SELECT * FROM {table_fullname} LIMIT {limit}"
         
+        print(query)
+
         response = self.client.statement_execution.execute_statement(
             warehouse_id=settings.WAREHOUSE_ID,
             statement=query
